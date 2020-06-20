@@ -9,7 +9,7 @@ def get_languages(key):
         return e
 
 
-def get_languages(key):
+def get_licenses(key):
     url = 'https://api.e-science.pl/api/azon/licenses/'
     try:
         return requests.get(url, headers={'X-Api-Key': key}).json()['results']
