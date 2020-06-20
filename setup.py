@@ -8,7 +8,7 @@ except IOError:
 
 setup(
     name="pip+AZON",
-    version="0.1.0",
+    version="0.2.0",
     description="Nikita Stepanenko pip package",
     author="Nikita Stepanenko",
     author_email='241379@student.pwr.edu.pl',

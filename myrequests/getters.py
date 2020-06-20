@@ -1,6 +1,22 @@
 import requests
 
 
+def get_languages(key):
+    url = 'https://api.e-science.pl/api/azon/languages/'
+    try:
+        return requests.get(url, headers={'X-Api-Key': key}).json()['results']
+    except Exception as e:
+        return e
+
+
+def get_languages(key):
+    url = 'https://api.e-science.pl/api/azon/licenses/'
+    try:
+        return requests.get(url, headers={'X-Api-Key': key}).json()['results']
+    except Exception as e:
+        return e
+
+
 def get_programming_languages(key):
     url = 'https://api.e-science.pl/api/azon/programminglanguages/'
     try:
