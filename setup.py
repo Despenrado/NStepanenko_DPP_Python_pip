@@ -13,7 +13,7 @@ setup(
     author="Nikita Stepanenko",
     author_email='241379@student.pwr.edu.pl',
     packages=find_packages(),
-    install_requires=['requests', 'json'],
+    install_requires=['requests'],
     long_description=long_description,
     classifiers=[
         "Programming Language :: Python",
