@@ -1,0 +1,12 @@
+setup.py
+bibTex/__init__.py
+bibTex/formatter.py
+myrequests/__init__.py
+myrequests/entries.py
+myrequests/formatter.py
+myrequests/getters.py
+pip_AZON.egg-info/PKG-INFO
+pip_AZON.egg-info/SOURCES.txt
+pip_AZON.egg-info/dependency_links.txt
+pip_AZON.egg-info/requires.txt
+pip_AZON.egg-info/top_level.txt
